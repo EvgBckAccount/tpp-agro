@@ -1,0 +1,4 @@
+{
+  "buildCommand": "echo Skip build",
+  "startCommand": "npx json-server --host 0.0.0.0 -p $PORT --watch mock.json"
+}
