@@ -1,0 +1,195 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "sku": "AGRI-FILT-0001",
+      "name": "Масляний фільтр RE504836",
+      "category": "Фільтри",
+      "price": 420,
+      "currency": "UAH",
+      "stock": 35,
+      "oem": "RE504836",
+      "shortDescription": "Сумісний із John Deere 6M, Case IH Maxxum.",
+      "imageUrl": "/placeholder.png"
+    },
+    {
+      "id": "2",
+      "sku": "AGRI-BELT-AX45",
+      "name": "Ремінь клиновий AX45",
+      "category": "Ремені",
+      "price": 260,
+      "currency": "UAH",
+      "stock": 18,
+      "oem": "AX45",
+      "shortDescription": "Підходить для приводів жаток та комбайнів.",
+      "imageUrl": "/placeholder.png"
+    },
+    {
+      "id": "3",
+      "sku": "AGRI-BEAR-6205-2RS",
+      "name": "Підшипник 6205-2RS",
+      "category": "Підшипники",
+      "price": 145,
+      "currency": "UAH",
+      "stock": 120,
+      "oem": "6205-2RS",
+      "shortDescription": "Гумові пильники, універсальне застосування.",
+      "imageUrl": "/placeholder.png"
+    },
+    {
+      "id": "4",
+      "sku": "AGRI-SEL-28x45x8",
+      "name": "Сальник 28×45×8",
+      "category": "Сальники",
+      "price": 58,
+      "currency": "UAH",
+      "stock": 200,
+      "oem": "28x45x8",
+      "shortDescription": "Маслостійка гума NBR.",
+      "imageUrl": "/placeholder.png"
+    },
+    {
+      "id": "5",
+      "sku": "AGRI-HOSE-2SN-10",
+      "name": "РВД 2SN DN10 (1SN/2SN)",
+      "category": "Гідравліка",
+      "price": 310,
+      "currency": "UAH",
+      "stock": 40,
+      "oem": "2SN-10",
+      "shortDescription": "Рукав високого тиску, DIN EN 853.",
+      "imageUrl": "/placeholder.png"
+    },
+    {
+      "id": "6",
+      "sku": "AGRI-SPRAY-TEEJET11003",
+      "name": "Форсунка TEEJET 110-03",
+      "category": "Розпилювачі",
+      "price": 72,
+      "currency": "UAH",
+      "stock": 300,
+      "oem": "110-03",
+      "shortDescription": "Для обприскувачів, конічний факел.",
+      "imageUrl": "/placeholder.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": "6ee4",
+      "customerName": "Єввгеній Білоцерківський",
+      "phone": "0683560132",
+      "address": "Володарка",
+      "items": [
+        {
+          "productId": "1",
+          "qty": 1,
+          "price": 420
+        },
+        {
+          "productId": "2",
+          "qty": 2,
+          "price": 260
+        }
+      ],
+      "total": 940,
+      "createdAt": "2025-09-26T18:51:25.577Z",
+      "status": "pending"
+    },
+    {
+      "id": "17b6",
+      "customerName": "89ощшо",
+      "phone": "69768969987",
+      "address": "ришрг",
+      "items": [
+        {
+          "productId": 2,
+          "qty": 1,
+          "price": 260
+        }
+      ],
+      "total": 260,
+      "createdAt": "2025-09-26T18:53:45.659Z",
+      "status": "pending"
+    },
+    {
+      "id": "84e3",
+      "customerName": "89ощшо",
+      "phone": "69768969987",
+      "address": "ришрг",
+      "items": [
+        {
+          "productId": "2",
+          "qty": 1,
+          "price": 260
+        }
+      ],
+      "total": 260,
+      "createdAt": "2025-09-26T18:58:25.641Z",
+      "status": "pending"
+    },
+    {
+      "id": "f434",
+      "customerName": "89ощшо",
+      "phone": "69768969987",
+      "address": "ришрг",
+      "items": [
+        {
+          "productId": "1",
+          "qty": 1,
+          "price": 420
+        }
+      ],
+      "total": 420,
+      "createdAt": "2025-09-26T19:05:16.172Z",
+      "status": "pending"
+    },
+    {
+      "id": "5c9e",
+      "customerName": "Євгеній Білоцерківський",
+      "phone": "0683560132",
+      "address": "Ришар",
+      "items": [
+        {
+          "productId": "2",
+          "qty": 1,
+          "price": 260
+        }
+      ],
+      "total": 260,
+      "createdAt": "2025-09-26T19:22:04.339Z",
+      "status": "pending"
+    },
+    {
+      "id": "5bf3",
+      "customerName": "Євгеній Білоцерківський",
+      "phone": "0683560132",
+      "address": "Ришар",
+      "items": [
+        {
+          "productId": "1",
+          "qty": 1,
+          "price": 420
+        }
+      ],
+      "total": 420,
+      "createdAt": "2025-09-26T19:30:11.693Z",
+      "status": "pending"
+    },
+    {
+      "id": "a1f4",
+      "customerName": "Євгеній Білоцерківський",
+      "phone": "0683560132",
+      "address": "Ришар",
+      "items": [
+        {
+          "productId": "4",
+          "qty": 2,
+          "price": 58
+        }
+      ],
+      "total": 116,
+      "createdAt": "2025-10-02T19:20:30.934Z",
+      "status": "pending"
+    }
+  ]
+}
