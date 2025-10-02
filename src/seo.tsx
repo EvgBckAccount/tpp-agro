@@ -1,5 +1,5 @@
 import { Helmet, HelmetProvider } from "@dr.pogodin/react-helmet";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 export const SEOProvider = ({ children }: { children: ReactNode }) => (
   <HelmetProvider>{children}</HelmetProvider>

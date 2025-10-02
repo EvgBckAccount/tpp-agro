@@ -1,3 +1,4 @@
+import type { ReactElement } from "react";
 import React, { Suspense, lazy } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
@@ -15,7 +16,7 @@ const OrderSuccess = lazy(() => import("./pages/OrderSuccess"));
 const AdminOrders = lazy(() => import("./pages/AdminOrders"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
-const withFallback = (el: JSX.Element) => (
+const withFallback = (el: ReactElement) => (
   <Suspense fallback={<div>Завантаження…</div>}>{el}</Suspense>
 );
 
