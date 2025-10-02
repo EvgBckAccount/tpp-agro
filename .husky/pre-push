@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+echo "í´Ž Running pre-push checks..."
+npx --no-install eslint "src/**/*.{ts,tsx}" || exit 1
+npm run build || exit 1
+echo "âœ… OK â€” pushing..."
