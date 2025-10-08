@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "mock": "json-server --watch mock.json --port 4000",
+    "prebuild": "node scripts/gen-sitemap.mjs",
     "build": "tsc -b && vite build",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
