@@ -37,7 +37,7 @@ export default function OrderSuccess() {
   const byId = new Map(products.map((x) => [x.id, x]));
   return (
     <>
-      <PageSEO title={`Замовлення №${order.id} — Tpp Agro`} />
+      <PageSEO title={`Замовлення №${order.id} — Tpp Agro`} noindex />
       <div className="p-4 border rounded bg-white">
         <h2 className="text-xl font-semibold mb-2">Дякуємо! Замовлення №{order.id} прийнято</h2>
         <div className="text-sm text-neutral-700 mb-3">

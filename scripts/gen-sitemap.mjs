@@ -2,8 +2,12 @@
 import { writeFile, mkdir } from "node:fs/promises";
 import { resolve } from "node:path";
 
-const SITE = process.env.SITE_URL || "http://localhost:4173";
-const API  = process.env.VITE_API_URL || "http://localhost:4000";
+const SITE =
+  process.env.SITE_URL ||
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:4173");
+
+const API = process.env.VITE_API_URL || "http://localhost:4000";
+
 
 console.log("[sitemap] SITE_URL =", SITE);
 console.log("[sitemap] API_URL  =", API);
